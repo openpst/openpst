@@ -1,0 +1,44 @@
+clone_depth: 1
+
+environment: 
+ 
+  matrix:
+    - platform: Win32
+      configuration: Release
+      QTDIR: C:\Qt\5.4\msvc2013_opengl
+
+    - platform: Win32
+      configuration: Debug
+      QTDIR: C:\Qt\5.4\msvc2013_opengl
+
+    - platform: Win32
+      configuration: Release
+      QTDIR: C:\Qt\5.3\msvc2013_opengl
+
+    - platform: Win32
+      configuration: Debug
+      QTDIR: C:\Qt\5.3\msvc2013_opengl
+
+    - platform: x64
+      configuration: Release
+      QTDIR: C:\Qt\5.4\msvc2013_64_opengl
+      
+    - platform: x64
+      configuration: Debug
+      QTDIR: C:\Qt\5.4\msvc2013_64_opengl
+
+    - platform: x64
+      configuration: Release
+      QTDIR: C:\Qt\5.3\msvc2013_64_opengl
+
+    - platform: x64
+      configuration: Debug
+      QTDIR: C:\Qt\5.3\msvc2013_64_opengl
+
+
+before_build:
+  - git submodule init lib/serial
+  - git submodule update lib/serial
+
+build:
+  project: OpenPST-vs2013.sln

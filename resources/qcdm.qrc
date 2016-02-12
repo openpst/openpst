@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/file-2x.png</file>
+        <file>images/folder-2x.png</file>
+        <file>images/link-intact-2x.png</file>
+        <file>images/data-transfer-download-2x.png</file>
+        <file>images/data-transfer-upload-2x.png</file>
+        <file>images/plus-2x.png</file>
+        <file>images/trash-2x.png</file>
+        <file>images/folder-protected-2x.png</file>
+        <file>images/file-protected-2x.png</file>
+        <file>images/clipboard.png</file>
+        <file>images/clipboard-2x.png</file>
+        <file>xml/nv_items.xml</file>
+    </qresource>
+</RCC>

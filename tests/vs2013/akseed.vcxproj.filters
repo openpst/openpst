@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="app-src">
+      <UniqueIdentifier>{4f13e690-7622-4c03-b003-3682c8a1bc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app-src\include">
+      <UniqueIdentifier>{7c6187c3-c064-44d1-b89d-b061a6e89008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app-src\samsung">
+      <UniqueIdentifier>{b1e3af0e-239a-421f-826f-ebda437c4515}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\include\definitions.h">
+      <Filter>app-src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\include\win_inttypes.h">
+      <Filter>app-src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\include\win_stdint.h">
+      <Filter>app-src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\samsung\akseed_calculator.h">
+      <Filter>app-src\samsung</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\akseed_test.cpp" />
+    <ClCompile Include="..\..\src\samsung\akseed_calculator.cpp">
+      <Filter>app-src\samsung</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

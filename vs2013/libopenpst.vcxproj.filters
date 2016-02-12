@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FA}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFC}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD02}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\serial">
+      <UniqueIdentifier>{621e6ab1-920c-4112-bf72-e8c732a532f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\qc">
+      <UniqueIdentifier>{73ea3062-df6e-4450-bb1e-e8ff264074ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qc">
+      <UniqueIdentifier>{e90cfac5-017e-4883-a8bb-2e239eb168eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{4edca1f4-e340-44fd-876f-c1f7e7dffe21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{e8896604-6a13-47cd-86c5-3e7da89e7321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{4649fe2a-a3df-4aaa-a87d-7c54c1f09b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\samsung">
+      <UniqueIdentifier>{4cf14538-8d39-4750-ad58-5dadf6e63a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lg">
+      <UniqueIdentifier>{6bbcf64a-69c1-4d24-b86e-779ab49904b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lg">
+      <UniqueIdentifier>{4ae5a624-39c2-4291-bd9c-1de81525b94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\samsung">
+      <UniqueIdentifier>{5037aba6-886a-4a90-ba94-1d154db2b3a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\util\convert.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\endian.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\hexdump.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\sleep.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qc\dm_efs_manager.cpp">
+      <Filter>Source Files\qc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qc\hdlc.cpp">
+      <Filter>Source Files\qc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qc\dm_efs_node.cpp">
+      <Filter>Source Files\qc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qc\hdlc_serial.cpp">
+      <Filter>Source Files\qc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qc\qcdm_serial.cpp">
+      <Filter>Source Files\qc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qc\sahara_serial.cpp">
+      <Filter>Source Files\qc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qc\streaming_dload_serial.cpp">
+      <Filter>Source Files\qc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\samsung\akseed_calculator.cpp">
+      <Filter>Source Files\samsung</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\util\convert.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\endian.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\hexdump.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\sleep.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\include\win_inttypes.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\include\win_stdint.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\dload.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\dm.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\dm_efs.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\dm_efs_manager.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\dm_nv.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\hdlc.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\mbn.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\sahara.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\streaming_dload.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\dm_efs_node.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\include\definitions.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\streaming_dload_serial.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\hdlc_serial.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\qcdm_serial.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\qc\sahara_serial.h">
+      <Filter>Header Files\qc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\samsung\akseed_calculator.h">
+      <Filter>Header Files\samsung</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\util\endian.cpp">
+      <Filter>Source Files\src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\hexdump.cpp">
+      <Filter>Source Files\src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\mbn_tool_window.cpp">
+      <Filter>Source Files\src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mbn_tool.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_mbn_tool_window.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_mbn_tool_window.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_mbn_tool_window.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_mbn_tool_window.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\application.cpp">
+      <Filter>Source Files\src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\$(PlatformName)-$(ConfigurationName)\generated\qrc_mbn_tool.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\include\win_inttypes.h">
+      <Filter>Header Files\src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\include\win_stdint.h">
+      <Filter>Header Files\src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\build\$(PlatformName)-$(ConfigurationName)\generated\ui_mbn_tool_window.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gui\application.h">
+      <Filter>Header Files\src\gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\resources\ui\mbn_tool_window.ui">
+      <Filter>Form Files\resources\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\include\definitions.h">
+      <Filter>Header Files\src\include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\mbn_tool_window.h">
+      <Filter>Header Files\src\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qc\mbn.h">
+      <Filter>Header Files\src\qc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\util\endian.h">
+      <Filter>Header Files\src\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\util\hexdump.h">
+      <Filter>Header Files\src\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\resources\mbn_tool.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{13cd6bd2-4086-4e68-a07d-f867c2c35f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\resources">
+      <UniqueIdentifier>{5ba2d302-76b7-4af8-8975-5b7d6debad9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\resources\ui">
+      <UniqueIdentifier>{9728664f-6103-462a-bf9c-97e8dac512a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6b5201b3-fad9-4a2b-a766-9fdc003848de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{bb9eceeb-10a0-46eb-88b2-ebeae5d4c127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\src">
+      <UniqueIdentifier>{710caf29-439d-4db9-8e84-87e8154c3940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\src\include">
+      <UniqueIdentifier>{a0f4d1b0-042e-4702-8685-ee715540a758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{88fa5b53-4a61-42b6-8be9-18cb0a9b4f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\src\gui">
+      <UniqueIdentifier>{c9f11557-8bfe-4bea-b25e-fdd56b55c488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\src\qc">
+      <UniqueIdentifier>{77bbc99b-cb88-4118-87ed-88b6dc9801cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\src\util">
+      <UniqueIdentifier>{eec5fb58-2439-4e96-be95-43d018335ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\util">
+      <UniqueIdentifier>{25adde5c-36a0-4dcf-9413-dcd0c1c10a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\gui">
+      <UniqueIdentifier>{0dfec67a-63c2-4a85-8787-0096773c6bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_Win32">
+      <UniqueIdentifier>{f708dd8f-3511-4fd6-b648-34c4a5232dce}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_Win32">
+      <UniqueIdentifier>{89ff4451-e435-4e8e-8e4a-5e55f647c931}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_x64">
+      <UniqueIdentifier>{9854ad41-cfc8-4aea-8293-fa0f1a7a6d10}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_x64">
+      <UniqueIdentifier>{36e87469-e5b6-4028-a64b-1a49a2a55f19}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\images\folder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\images\file.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\images\file-2x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\images\folder-2x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\images\link-intact.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\resources\images\link-intact-2x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

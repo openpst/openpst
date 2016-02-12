@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/media/ghassani/STORAGE/PhoneDev/AMSS/msm8939-la-2-0_amss_oem_no-l1-src"
+		}
+	]
+}

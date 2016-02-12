@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Form Files\resources">
+      <UniqueIdentifier>{437402e3-c808-4bd8-86db-63fe7c93548d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\resources\ui">
+      <UniqueIdentifier>{82f50a50-a9a3-4abe-a9cd-b432ee40cdc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{c5b5913e-53a8-4a9e-a5ab-14455467822b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{f93779e5-404d-4259-9715-d26c95ca9f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{6c6de087-666f-415e-8f2a-e064d47eb79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{09ac2d0e-a963-4fde-8d6c-2940dc2dcb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{6b0d8708-4d7a-4954-af9b-0b382afc3211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files\gui\worker">
+      <UniqueIdentifier>{b62281c1-5629-4237-8234-35042951f635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\task">
+      <UniqueIdentifier>{96099675-e83c-40f9-aa50-f72355baea82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\task">
+      <UniqueIdentifier>{be34a3ce-8646-45f0-b360-36245c63184c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug_Win32">
+      <UniqueIdentifier>{dc6d51a3-a7e0-4f99-9b12-9582aa3c0114}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_x64">
+      <UniqueIdentifier>{3a233c5b-952a-4a2c-a0b2-103771e81405}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_Win32">
+      <UniqueIdentifier>{d3f4eb5b-ac37-45a3-ac52-cd22a29ba503}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_x64">
+      <UniqueIdentifier>{c4411dd9-853d-44ae-9869-0001f9ad1241}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\gui\widget">
+      <UniqueIdentifier>{16e58a9e-3de9-43ee-be4e-a22a64398fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\widget">
+      <UniqueIdentifier>{c86c6e1c-1e9a-49f3-9e01-34a152c0a040}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\gui\sahara_window.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\application.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sahara.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\hexdump.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\task\task_runner.cpp">
+      <Filter>Source Files\gui\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_task.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_task.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_task.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_task.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_sahara_image_transfer_worker.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_sahara_image_transfer_worker.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_sahara_image_transfer_worker.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_sahara_image_transfer_worker.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_sahara_memory_read_worker.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_sahara_memory_read_worker.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_sahara_memory_read_worker.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_sahara_memory_read_worker.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\task\sahara_memory_read_task.cpp">
+      <Filter>Source Files\gui\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\widget\progress_group_widget.cpp">
+      <Filter>Source Files\gui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_sahara_window.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_sahara_window.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_sahara_window.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_sahara_window.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\about_dialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_about_dialog.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_about_dialog.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_about_dialog.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_about_dialog.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\widget\log_widget.cpp">
+      <Filter>Source Files\gui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_log_widget.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_log_widget.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_log_widget.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_log_widget.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_progress_group_widget.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_progress_group_widget.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_progress_group_widget.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_progress_group_widget.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\include\win_stdint.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\include\win_inttypes.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gui\application.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\hexdump.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gui\task\task_runner.h">
+      <Filter>Header Files\gui\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gui\task\sahara_memory_read_task.h">
+      <Filter>Header Files\gui\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\build\$(PlatformName)-$(ConfigurationName)\generated\ui_about_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\build\$(PlatformName)-$(ConfigurationName)\generated\ui_log_widget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\resources\ui\sahara_window.ui">
+      <Filter>Form Files\resources\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\sahara_window.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\include\definitions.h">
+      <Filter>Header Files\include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\resources\sahara.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\worker\sahara_image_transfer_worker.h">
+      <Filter>Header Files\gui\worker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\worker\sahara_memory_read_worker.h">
+      <Filter>Header Files\gui\worker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\worker\worker.h">
+      <Filter>Header Files\gui\worker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\task\task.h">
+      <Filter>Header Files\gui\task</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\widget\progress_group_widget.h">
+      <Filter>Header Files\gui\widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\resources\ui\progress_group_widget.ui">
+      <Filter>Form Files\resources\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\resources\ui\about_dialog.ui">
+      <Filter>Form Files\resources\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\about_dialog.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\widget\log_widget.h">
+      <Filter>Header Files\gui\widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\resources\ui\log_widget.ui">
+      <Filter>Form Files\resources\ui</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

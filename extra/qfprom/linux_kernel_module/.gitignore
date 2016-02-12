@@ -1,0 +1,12 @@
+Makefile.dev
+build/*
+.tmp_versions
+*.o 
+*.mod.c 
+Module.symvers 
+Module.markers 
+modules.order 
+\.*.o.cmd 
+\.*.ko.cmd 
+\.*.o.d *.ko
+client_dev.py

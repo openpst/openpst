@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="app-src">
+      <UniqueIdentifier>{4f13e690-7622-4c03-b003-3682c8a1bc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app-src\util">
+      <UniqueIdentifier>{05a9e807-b51e-45f5-867a-7aee25c0388b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app-src\include">
+      <UniqueIdentifier>{7c6187c3-c064-44d1-b89d-b061a6e89008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app-src\qc">
+      <UniqueIdentifier>{81f55ae4-490b-439c-9671-a88683abc134}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\include\definitions.h">
+      <Filter>app-src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\include\win_inttypes.h">
+      <Filter>app-src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\include\win_stdint.h">
+      <Filter>app-src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\hexdump.h">
+      <Filter>app-src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\qc\hdlc.h">
+      <Filter>app-src\qc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\util\hexdump.cpp">
+      <Filter>app-src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\qc\hdlc.cpp">
+      <Filter>app-src\qc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hdlc_test.cpp" />
+  </ItemGroup>
+</Project>

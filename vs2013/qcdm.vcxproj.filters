@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Form Files\resources">
+      <UniqueIdentifier>{437402e3-c808-4bd8-86db-63fe7c93548d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\resources\ui">
+      <UniqueIdentifier>{82f50a50-a9a3-4abe-a9cd-b432ee40cdc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{c5b5913e-53a8-4a9e-a5ab-14455467822b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{f93779e5-404d-4259-9715-d26c95ca9f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{4c5e016a-83f6-4ea3-b28e-45b96c5bde6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{6c6de087-666f-415e-8f2a-e064d47eb79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{941b0c23-50bb-4c4d-a7c1-da9f20735e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\xml">
+      <UniqueIdentifier>{f2604644-c5f0-4cec-8630-270e05f1f962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug_Win32">
+      <UniqueIdentifier>{2d21995a-ddbd-4dca-80e7-0da06c92047a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_x64">
+      <UniqueIdentifier>{e0f91704-b854-425f-b94c-b50ed70929f8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_Win32">
+      <UniqueIdentifier>{c5d47e0b-6aa6-48c3-9869-161f8ac3f7ad}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_x64">
+      <UniqueIdentifier>{9780d44d-8acb-4896-8a36-6d8328f87ffa}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\gui\worker">
+      <UniqueIdentifier>{98b97350-1fe1-479f-92d1-29533589a9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\worker">
+      <UniqueIdentifier>{eebd6b5d-1841-489a-8c11-cc5709e5285b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\task">
+      <UniqueIdentifier>{b21ca48a-fad9-4071-af2a-f906e55a59f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\task">
+      <UniqueIdentifier>{4c0e749f-ac7c-4ca9-adf7-350ba19a2d39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\gui\qcdm_window.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\application.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qcdm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\hexdump.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\about_dialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_about_dialog.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_about_dialog.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_about_dialog.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_about_dialog.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_qcdm_window.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_qcdm_window.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_qcdm_window.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_qcdm_window.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_qcdm_nv_item_read_worker.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_qcdm_nv_item_read_worker.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_qcdm_nv_item_read_worker.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_qcdm_nv_item_read_worker.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\worker\qcdm_memory_read_worker.cpp">
+      <Filter>Source Files\gui\worker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\worker\qcdm_nv_item_read_worker.cpp">
+      <Filter>Source Files\gui\worker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\worker\qcdm_prl_read_worker.cpp">
+      <Filter>Source Files\gui\worker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\worker\qcdm_prl_write_worker.cpp">
+      <Filter>Source Files\gui\worker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\worker\worker.cpp">
+      <Filter>Source Files\gui\worker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\worker\qcdm_efs_directory_tree_worker.cpp">
+      <Filter>Source Files\gui\worker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\worker\qcdm_efs_file_read_worker.cpp">
+      <Filter>Source Files\gui\worker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\worker\qcdm_efs_file_write_worker.cpp">
+      <Filter>Source Files\gui\worker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_qcdm_prl_write_worker.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_qcdm_prl_write_worker.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_qcdm_prl_write_worker.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_qcdm_prl_write_worker.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_qcdm_efs_directory_tree_worker.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_qcdm_efs_directory_tree_worker.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_qcdm_efs_directory_tree_worker.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_qcdm_efs_directory_tree_worker.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_qcdm_efs_file_read_worker.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_qcdm_efs_file_read_worker.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_qcdm_efs_file_read_worker.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_qcdm_efs_file_read_worker.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_qcdm_efs_file_write_worker.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_qcdm_efs_file_write_worker.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_qcdm_efs_file_write_worker.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_qcdm_efs_file_write_worker.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_qcdm_memory_read_worker.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_qcdm_memory_read_worker.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_qcdm_memory_read_worker.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_qcdm_memory_read_worker.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_qcdm_nv_item_read_worker.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_qcdm_nv_item_read_worker.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_qcdm_nv_item_read_worker.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_qcdm_nv_item_read_worker.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Debug\generated\moc_qcdm_prl_read_worker.cpp">
+      <Filter>Generated Files\Debug_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Debug\generated\moc_qcdm_prl_read_worker.cpp">
+      <Filter>Generated Files\Debug_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\Win32-Release\generated\moc_qcdm_prl_read_worker.cpp">
+      <Filter>Generated Files\Release_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\x64-Release\generated\moc_qcdm_prl_read_worker.cpp">
+      <Filter>Generated Files\Release_x64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\include\win_stdint.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\include\win_inttypes.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gui\application.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\hexdump.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\resources\ui\qcdm_window.ui">
+      <Filter>Form Files\resources\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\qcdm_window.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\include\definitions.h">
+      <Filter>Header Files\include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\resources\qcdm.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\about_dialog.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\resources\ui\about_dialog.ui">
+      <Filter>Form Files\resources\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\worker\qcdm_prl_write_worker.h">
+      <Filter>Header Files\gui\worker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\worker\worker.h">
+      <Filter>Header Files\gui\worker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\worker\qcdm_efs_directory_tree_worker.h">
+      <Filter>Header Files\gui\worker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\worker\qcdm_efs_file_read_worker.h">
+      <Filter>Header Files\gui\worker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\worker\qcdm_efs_file_write_worker.h">
+      <Filter>Header Files\gui\worker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\worker\qcdm_memory_read_worker.h">
+      <Filter>Header Files\gui\worker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\worker\qcdm_nv_item_read_worker.h">
+      <Filter>Header Files\gui\worker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gui\worker\qcdm_prl_read_worker.h">
+      <Filter>Header Files\gui\worker</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\images\file-2x.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="..\resources\images\folder-2x.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="..\resources\images\link-intact-2x.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\resources\xml\nv_items.xml">
+      <Filter>Resource Files\xml</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

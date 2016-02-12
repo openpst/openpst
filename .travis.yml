@@ -1,0 +1,22 @@
+
+os:
+  - linux
+
+#env:
+#  - CONFIG=release
+#  - CONFIG=debug
+
+language: cpp
+
+before_install:
+
+install:
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test  
+  - sudo apt-add-repository -y ppa:beineri/opt-qt541
+  - sudo apt-get -qq update
+  - sudo apt-get -qq install g++-4.8 qt54tools qt54creator
+  - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 90
+
+script:
+  - make travis
+
