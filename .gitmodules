@@ -1,23 +1,23 @@
 [submodule "libopenpst"]
 	path = libopenpst
-	url = https://github.com/openpst/libopenpst.git
+	url = https://github.com/openpst/libopenpst
 
 [submodule "gui-common"]
 	path = gui-common
-	url = https://github.com/openpst/gui-common.git
+	url = https://github.com/openpst/gui-common
 
 [submodule "qcdm"]
 	path = qcdm
-	url = https://github.com/openpst/qcdm.git
+	url = https://github.com/openpst/qcdm
 
 [submodule "sahara"]
 	path = sahara
-	url = https://github.com/openpst/sahara.git
+	url = https://github.com/openpst/sahara
 
 [submodule "streaming-dload"]
 	path = streaming-dload
-	url = https://github.com/openpst/streaming-dload.git
+	url = https://github.com/openpst/streaming-dload
 
 [submodule "mbn-tool"]
 	path = mbn-tool
-	url = https://github.com/openpst/mbn-tool.git
+	url = https://github.com/openpst/mbn-tool
