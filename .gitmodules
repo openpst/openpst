@@ -15,9 +15,9 @@
 	url = https://github.com/openpst/sahara.git
 
 [submodule "streaming-dload"]
-	path = sahara
+	path = streaming-dload
 	url = https://github.com/openpst/streaming-dload.git
 
 [submodule "mbn-tool"]
-	path = sahara
+	path = mbn-tool
 	url = https://github.com/openpst/mbn-tool.git
