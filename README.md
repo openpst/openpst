@@ -29,4 +29,5 @@ Working on this again. Will update this when I can.
 ## Looking forward
 
 	- CLI for automation and fuzzing
-	- Python bindings for er1337 otomation and fuzzing
+	- Python bindings for er1337er automation and fuzzing
+	- GUI translations
