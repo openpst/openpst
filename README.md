@@ -11,6 +11,8 @@ Working on this again. Will update this when I can.
 
 - interested in working with this project? I need testers, documentation writers, programmers, device donators. Donators and programmers get access to special s4uc3
 
+## Current state
+
 - individual projects that build at this time(): 
 	- https://github.com/openpst/libopenpst - (The "GOODS")
 	- https://github.com/openpst/sahara
