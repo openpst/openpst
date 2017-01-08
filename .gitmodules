@@ -18,7 +18,7 @@
 	path = streaming-dload
 	url = https://github.com/openpst/streaming-dload
 	branch = master
-[submodule "mbn-tool"]
-	path = mbn-tool
-	url = https://github.com/openpst/mbn-tool
+[submodule "readmbn"]
+	path = readmbn
+	url = https://github.com/openpst/readmbn
 	branch = master
