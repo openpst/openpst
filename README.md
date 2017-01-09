@@ -9,7 +9,7 @@ Working on this again. Will update this when I can.
 
 - Also looking for recoverable devices through firehose programmer modes.
 
-- interested in working with this project? I need testers, documentation writers, programmers, device donators. Donators and programmers get access to special s4uc3
+- interested in working with this project? I need testers, documentation writers, programmers, device donators.
 
 ## Current state
 
