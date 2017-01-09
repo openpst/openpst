@@ -1,10 +1,10 @@
-# Leik wha..
+# About
 
 This project aims to be a collection of tools for working with Qualcomm MSM devices
 
 Working on this again. Will update this when I can.
 
-## Helpz
+## Help
 - Looking for recoverable or irrecoverable 64 bit devices. If you can spare temporarily or permannetly a 64bit qualcomm phone in 9008 or 9006 mode please contact me, ghassani@gmail.com 
 
 - Also looking for recoverable devices through firehose programmer modes.
@@ -28,6 +28,6 @@ Working on this again. Will update this when I can.
 
 ## Looking forward
 
-	- CLI for automation and fuzzing
-	- libopenpst python bindings for er1337er automation and fuzzing
+	- CLI for automation
+	- libopenpst python bindings
 	- GUI translations
